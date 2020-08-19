@@ -7,8 +7,10 @@ const fetch = require('node-fetch')
 const Entities = require('html-entities').XmlEntities
 const entities = new Entities()
 
+const config = require("./config.json")
+
 const client = new Discord.Client()
-client.login(process.env.TOKEN)
+client.login(config.BOT_TOKEN)
 
 const prefix = '!'
 
