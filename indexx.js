@@ -1,14 +1,11 @@
-const http = require('http');
-const express = require('express');
-const app = express();
-
 const Discord = require("discord.js")
 const fetch = require('node-fetch')
 const Entities = require('html-entities').XmlEntities
 const entities = new Entities()
+const config = require("./config.json")
 
 const client = new Discord.Client()
-client.login(process.env.TOKEN)
+client.login(config.BOT_TOKEN)
 
 const prefix = '!'
 
@@ -48,16 +45,3 @@ client.on('message', (message) => {
   }
 })
 
-
-app.get("/", (request, response) => {
-  console.log(Date.now() + " Ping Received");
-  response.sendStatus(200);
-});
-
-app.listen(process.env.PORT);
-
-setInterval(() => {
-  http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
-  let channel = (client.channels.cache.find(ch=>ch.name==='botonlinecheck'))
-  channel.send('online check!')
-}, 60000);
