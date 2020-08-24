@@ -1,0 +1,40 @@
+{
+  "bosses": {
+    "old_forest": {
+      "name": "Old Forest",
+      "color": "white"
+    },
+    "farmhouse": {
+      "name": "Farmhouse",
+      "color": "red"
+    },
+    "river_of_wizards": {
+      "name": "River of wizards",
+      "color": "blue"
+    },
+    "winter_tale": {
+      "name": "Winter Tale",
+      "color": "pink"
+    },
+    "green_book_city": {
+      "name": "Green Book City",
+      "color": "yellow"
+    },
+    "shaitan-star": {
+      "name": "Shaitan-star",
+      "color": "golden"
+    },
+    "great_courage": {
+      "name": "Great courage",
+      "color": "orange"
+    },
+    "witch_house": {
+      "name": "Witch House",
+      "color": "gray"
+    },
+    "october_night": {
+      "name": "October night",
+      "color": "purple"
+    }
+  }
+}

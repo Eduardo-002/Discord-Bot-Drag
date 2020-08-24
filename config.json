@@ -1,3 +1,13 @@
 {
-  "BOT_TOKEN" : "NzQ1NjQ0NzM1Mzk3NDk0Nzk0.Xz0xxg.hohbihFZf8e7W8pp_nOMObSEEyw"
+  "BOT_TOKEN" : "NzQ1NjQ0NzM1Mzk3NDk0Nzk0.Xz0xxg._U_uwUoM8pmk5zjDdsSOo6CHFlM",
+  "FIREBASE_CONFIG" : {
+    "apiKey": "AIzaSyDw9ja4LypytVFYetOd4UnAEio3nOSVHuY",
+    "authDomain": "discordbot-streetracing.firebaseapp.com",
+    "databaseURL": "https://discordbot-streetracing.firebaseio.com",
+    "projectId": "discordbot-streetracing",
+    "storageBucket": "discordbot-streetracing.appspot.com",
+    "messagingSenderId": "876934692093",
+    "appId": "1:876934692093:web:603d7fc736e3a93f609294",
+    "measurementId": "G-CZ77K8E2ET"
+  }
 }
