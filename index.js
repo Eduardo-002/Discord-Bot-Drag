@@ -10,21 +10,24 @@ let db = firebase.firestore()
 
 const Discord = require("discord.js")
 const client = new Discord.Client()
-client.login(config.BOT_TOKEN)
+//client.login(config.BOT_TOKEN)
+client.login(process.env.TOKEN)
 
 
 const bot = require('./bot/index')
 bot.bot({client,db})
 
-
+/*
 app.get("/", (request, response) => {
   console.log(Date.now() + " Ping Received");
   response.sendStatus(200);
 });
 
 
-app.listen(process.env.PORT);
+app.listen( process.env.PORT || 8080, () => {
+  console.log(`Running on port ${process.env.PORT||8080}`)
+});
 
 // setInterval(() => {
 //   http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
-// }, 60000);
+// }, 60000);*/ 
